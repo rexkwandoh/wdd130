@@ -1,0 +1,13 @@
+
+h1 {text-align: center; color: white; font-family: "Open+Sans";}
+img {width: 200px; display: block; margin: 0 auto}
+p {text-align: center; color: white; font-style: "arial"}
+main {text-align: center; font-size: 1.5em; color: white;}
+h3 {text-align: center; color: white;}
+h4 {margin: 10px auto; text-align: center;}
+footer {text-align: center; color: white;}
+h1:hover {color: black;}
+body {background-color: steelblue;}
+* {border: 2px solid blue;}
+h1 {font-style: "sans";}
+@import url(<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">);
