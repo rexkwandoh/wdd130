@@ -1,10 +1,20 @@
 
-.top {width: 100%; background-color: #444444; padding: 0px;}
-.left {border-radius: 50%; border: 40px solid #444444; float: left;}
-.middle {border-radius: 50%; border: 40px solid #444444; margin: 0 500px;}
-.right {border-radius: 50%; border: 40px solid #444444; float: right;}
-.down {background-color: #737373; height: 1000px; width: 100%;}
-#y {margin: 150px 100px;}
+.top {width: 100%; 
+    background-color: #444444; 
+    padding: 0px;}
+
+.down {background-color: #737373; 
+    height: 1000px; 
+    width: 100%;
+    text-align: center;}
+
+.down img {border-radius: 50%; 
+    border: 15px solid #444444;
+    max-width: 250px;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;}
+
 body {}
-header {background-color: #737373;}
+header {background-color: #737373; max-height: ;}
 footer {}

@@ -1,35 +1,87 @@
-#content {max-width: 1600px; margin: 0 auto;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Open+Sans&display=swap');
+
+.home-title {font-family: 'Noto Sans', 'Open Sans'; font-size: 2em;}
+
+#content {max-width: 1600px; 
+        margin: 0 auto;}
 nav {text-align: center;}
 #hero-msg h1{ text-align: center;}
 #hero-msg h4 {text-align: center;}
+
 .button-box {text-align: center;}
+
 main section {text-align: center;}
-#background {height: 725px; background-color: #032b43;}
+#background {height: 725px; 
+        background-color: #032b43;}
 
-body {background-color: #119DA4;}
+body {background-color: #119DA4;
+        font-family: 'Noto sans', 'Open Sans';
+        font-size: 22px;
+        margin: 0;
+        padding: 0;}
+  
+h2 {margin: 0;}
+
 header {background-color: #032b43;}
-nav a:hover {background-color:#ED6A5A; color: #032B43}
-.book {background-color: #119DA4; color: black; text-decoration: none;}
-.join {background-color: #ED6A5A; color: #F2F230; text-decoration: none;}
-.book:hover {background-color: #032B43; color: #ED6A5A}
-.join:hover {background-color: #032B43; color: #ED6A5A}
-.msg {background-color: #119DA4;}
-footer {background-color: #032b43; color: black;}
+nav a:hover {background-color:#ED6A5A; 
+        color: #032B43}
+.book {background-color: #ED6A5A; 
+        color: black; 
+        text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;}
+.join {background-color: #ED6A5A; 
+        color: #F2F230; 
+        text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;}
+.book:hover {background-color: #032B43; 
+        color: #ED6A5A}
+.join:hover {background-color: #032B43; 
+        color: #ED6A5A}
+.msg {background-color: #119DA4;
+        line-height: 1.5em;
+        padding: 35px;}
 
-nav a {color:#F2F230; text-decoration: none; }
+footer {background-color: #032b43; 
+        color: black;
+        padding: 25px 50px;
+        margin-top: 200px;}
+
+nav a {color:#F2F230; 
+        text-decoration: none; 
+        padding: 35px;}
 
 
-.home-title {color: black;}
+.home-title {color: black;
+        margin-top: 10px;}
 h4 {color: black;}
 
-.msg h2 {color: black;}
-.msg p {color: black;}
+.msg h2 {color: black; font-family: 'Noto Sans'}
+.msg p {color: black;
+        font-size: .8em;
+        padding-bottom: 15px;}
 
-footer a {color: black; text-decoration: none;}
+footer a {color: black;    
+        text-decoration: none;}
 footer a:hover {color: white;}
 .logo {width: 80px;}
-.icon {width: 80px;}
+.icon {width: 80px;
+        padding-top: 10px;}
 #hero-img {width: 100%;}
 
 footer p {font-size: 1.2em;}
 footer p a:hover {text-decoration: underline;}
+footer .social img {padding-top: 15px;}
+
+#logo_link {padding-top: 5px;}
+.rivers-card {margin: 200px 0;}
+.camping-card {margin: 200px 0;}
+.rapids-card {margin: 200px 0;}
+
+.card-img {border: 10px solid #ED6A5A;}
+main section img {box-sizing: border-box;}
