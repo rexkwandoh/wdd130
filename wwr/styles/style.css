@@ -16,6 +16,7 @@ nav {
 .button-box {
         text-align: center;
 }
+
 main section {
         text-align: center;
 }
@@ -24,7 +25,7 @@ main section img {
 }
 .home-grid {
         display: grid;
-        grid-template-columns: repeat(10 1fr);
+        grid-template-columns: repeat(10, 1fr);
 }
 .card-img {
         border: 10px solid #ED6A5A;
@@ -198,6 +199,9 @@ h4 {
         padding-top: 5px;
         justify-self: center;
         align-self: center;
+}
+.book {
+        text-align: center;
 }
 
 
