@@ -200,9 +200,7 @@ h4 {
         justify-self: center;
         align-self: center;
 }
-.book {
-        text-align: center;
-}
+
 
 
         @media screen and (max-width: 900px) {
