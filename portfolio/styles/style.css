@@ -11,9 +11,12 @@
 
 #content {
     max-width: 1600px; 
-    margin: 0 auto;   
+    margin: 0 auto;
+    color: ;
 }
-
+.logo {
+    border-radius: 20px;
+}
 nav {
     text-align: center;
     display: flex;
@@ -27,12 +30,18 @@ nav a {
     padding: 35px;
     font-size: 40px;
 }
+nav a:hover {
+    background-color:#79C8FC; 
+    color: #000;
+    border-radius: 10px;
+}
 
 .test {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #79C8FC;
     grid-gap: 30px;
+    /*display: block;*/
 }
 .heading {
     text-align: center;
@@ -42,7 +51,7 @@ nav a {
     font-size: 50px;
     border: 5px solid #000;
     max-height: 60px;
-    width: auto;
+
 }
 .title {
     max-width: 75%;
@@ -77,6 +86,13 @@ footer a {
     color: black;    
     text-decoration: none;
     font-size: 30px;
+    padding: 35px;
+}
+
+footer a:hover {
+    background-color:#79C8FC; 
+    color: #000;
+    border-radius: 10px;
 }
 
 .keyboard {
