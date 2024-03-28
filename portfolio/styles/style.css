@@ -68,6 +68,12 @@ nav a:hover {
     grid-template-rows: 2/4;
     grid-gap: 20px;
 }
+.headers_tag {
+    background-color: #79C8FC; /* Blue color code */
+    padding: 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
 
 .footer {
     text-align: center;
@@ -108,16 +114,20 @@ footer a:hover {
     font-family: 'open sans', 'roboto';
     font-size: 30px;
     grid-column: 2/3;
+    padding-right: 20px;
 }
 .degree {
     font-family: 'open sans', 'roboto';
     font-size: 30px;
     grid-column: 1/2;
+    padding-left: 20px;
 }
 .hire {
     font-family: 'open sans', 'roboto';
     font-size: 30px;
     grid-column: 1/3;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* class="primary"[#396E94]
 class="secondary"[#E7C24F]
