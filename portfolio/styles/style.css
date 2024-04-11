@@ -370,6 +370,9 @@ footer a:hover {
         grid-template-columns: repeat(2, 1fr);
         background-color: #79C8FC;
         grid-gap: 30px;}
+    .clean {
+        max-width: 100%;
+    }
     .page3 {
         display: block;
         grid-template-columns: repeat(2, 1fr);
